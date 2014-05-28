@@ -1,0 +1,35 @@
+
+{
+    "job1": {
+        "command": "print(\"job1! \")",
+        "dependencies": []
+    },
+    "job2": {
+        "command": "print(\"job2! \")",
+        "dependencies": []
+    },
+    "job3": {
+        "command": "print(\"job3! \")",
+        "dependencies": ["job1", "job2"]
+    },
+    "job4": {
+        "command": "print(\"job4! \")",
+        "dependencies": ["job3"]
+    },
+    "job5": {
+        "command": "print(\"job5! \")",
+        "dependencies": ["job3"]
+    },
+    "job6": {
+        "command": "print(\"job6! \")",
+        "dependencies": ["job3"]
+    },
+    "job7": {
+        "command": "print(\"job7! \")",
+        "dependencies": ["job3"]
+    },
+    "job8": {
+        "command": "print(\"job8! \")",
+        "dependencies": ["job3"]
+    }
+}
